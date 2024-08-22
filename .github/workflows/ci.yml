@@ -9,5 +9,5 @@ on:
 jobs:
 
   ci-vipc:
-    uses: vipm-io/OpenG-Tookit/.github/workflows/ci-container.yml@v0.1
+    uses: vipm-io/OpenG-Tookit/.github/workflows/ci-container.yml@main
     secrets: inherit
