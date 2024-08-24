@@ -1,4 +1,4 @@
-name: ci-vipc
+name: ci
 
 on:
   push:
@@ -9,6 +9,6 @@ on:
 
 jobs:
 
-  ci-vipc:
+  ci-container:
     uses: vipm-io/OpenG-Toolkit/.github/workflows/ci-container.yml@main
     secrets: inherit
