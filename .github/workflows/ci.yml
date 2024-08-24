@@ -7,6 +7,14 @@ on:
       - dev
   workflow_dispatch:
 
+env:
+  # Use docker.io for Docker Hub if empty
+  REGISTRY: ghcr.io
+  # github.repository as <account>/<repo>
+  IMAGE_NAME: ${{ github.repository }}-labview-2024.3-linux
+  # PLATFORM: linux
+  # LABVIEW_VERSION: 2024.3
+
 
 jobs:
   build:
