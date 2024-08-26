@@ -2,6 +2,8 @@
 
 FROM ghcr.io/vipm-io/actions-runner-labview:main
 
+ENV DOCKER_USER=labview
+
 # the script below will apply VIPC files, if they are found.
 RUN \
     echo "Refreshing Package List..." && \
