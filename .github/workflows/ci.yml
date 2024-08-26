@@ -75,3 +75,4 @@ jobs:
           cache-to: type=gha,mode=max
           build-args: |
             BUILDKIT_PROGRESS=plain
+            "GITHUB_REPOSITORY=${{ GITHUB_REPOSITORY }}"
