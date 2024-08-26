@@ -2,7 +2,7 @@
 
 FROM ghcr.io/vipm-io/actions-runner-labview:main
 
-ARG GITHUB_REPOSITORY ""
+ARG GITHUB_REPOSITORY
 ENV GITHUB_REPOSITORY ${GITHUB_REPOSITORY}
 
 ENV DOCKER_USER=labview
